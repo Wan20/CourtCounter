@@ -18,37 +18,37 @@
         android:text="Team A" />
 
     <TextView
+        android:id="@+id/team_a_score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:padding="8dp"
-        android:id="@+id/team_a_score"
-        android:text="0"/>
+        android:text="0" />
 
     <Button
+        android:id="@+id/threepoint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:text="+3 Points"
         android:onClick="ThreePOINT"
-        android:id="@+id/threepoint"/>
+        android:text="+3 Points" />
 
     <Button
+        android:id="@+id/twopoint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:text="+ 2 Points"
         android:onClick="TwoPOINT"
-        android:id="@+id/twopoint"/>
+        android:text="+ 2 Points" />
 
     <Button
+        android:id="@+id/onepoint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:text="FREE THROW"
         android:onClick="OnePOINT"
-        android:id="@+id/onepoint"/>
+        android:text="FREE THROW" />
 </LinearLayout>
