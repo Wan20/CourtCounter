@@ -22,26 +22,33 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:padding="8dp"
-        android:text="3" />
+        android:id="@+id/team_a_score"
+        android:text="0"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:text="+3 Points" />
+        android:text="+3 Points"
+        android:onClick="ThreePOINT"
+        android:id="@+id/threepoint"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:text="+ 2 Points" />
+        android:text="+ 2 Points"
+        android:onClick="TwoPOINT"
+        android:id="@+id/twopoint"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:text="FREE THROW" />
+        android:text="FREE THROW"
+        android:onClick="OnePOINT"
+        android:id="@+id/onepoint"/>
 </LinearLayout>
