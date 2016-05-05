@@ -24,18 +24,20 @@
                 android:fontFamily="sans-serif-medium"
                 android:padding="8dp"
                 android:text="Team A"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="#616161"/>
 
             <TextView
                 android:id="@+id/team_a_score"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif-light"
                 android:padding="8dp"
                 android:text="0"
                 android:textColor="#000000"
-                android:textSize="50sp" />
+                android:textSize="50sp"
+                android:paddingBottom="24dp"/>
 
             <Button
                 android:id="@+id/threepoint"
@@ -44,7 +46,10 @@
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
                 android:onClick="ThreePOINT"
-                android:text="+3 Points" />
+                android:text="+3 Points"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:paddingBottom="8dp"/>
 
             <Button
                 android:id="@+id/twopoint"
@@ -53,7 +58,10 @@
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
                 android:onClick="TwoPOINT"
-                android:text="+ 2 Points" />
+                android:text="+ 2 Points"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:paddingBottom="8dp"/>
 
             <Button
                 android:id="@+id/onepoint"
@@ -62,7 +70,9 @@
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
                 android:onClick="OnePOINT"
-                android:text="FREE THROW" />
+                android:text="FREE THROW"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"/>
         </LinearLayout>
 
         <View
@@ -84,18 +94,21 @@
                 android:fontFamily="sans-serif-medium"
                 android:padding="8dp"
                 android:text="Team B"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="#616161"
+                />
 
             <TextView
                 android:id="@+id/team_b_score"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif-light"
                 android:padding="8dp"
                 android:text="0"
                 android:textColor="#000000"
-                android:textSize="50sp" />
+                android:textSize="50sp"
+                android:paddingBottom="24dp"/>
 
             <Button
                 android:id="@+id/threepoint2"
@@ -104,7 +117,10 @@
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
                 android:onClick="ThreePOINT2"
-                android:text="+3 Points" />
+                android:text="+3 Points"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:paddingBottom="8dp"/>
 
             <Button
                 android:id="@+id/twopoint2"
@@ -113,7 +129,10 @@
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
                 android:onClick="TwoPOINT2"
-                android:text="+ 2 Points" />
+                android:text="+ 2 Points"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:paddingBottom="8dp"/>
 
             <Button
                 android:id="@+id/onepoint2"
@@ -122,13 +141,16 @@
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
                 android:onClick="OnePOINT2"
-                android:text="FREE THROW" />
+                android:text="FREE THROW"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"/>
         </LinearLayout>
     </LinearLayout>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingTop="16dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:gravity="center_horizontal"
