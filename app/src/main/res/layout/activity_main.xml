@@ -79,7 +79,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="8dp"
-            android:onClick="ThreePOINT"
+            android:onClick="ThreePOINT2"
             android:text="+3 Points" />
 
         <Button
@@ -88,7 +88,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="8dp"
-            android:onClick="TwoPOINT"
+            android:onClick="TwoPOINT2"
             android:text="+ 2 Points" />
 
         <Button
@@ -97,7 +97,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="8dp"
-            android:onClick="OnePOINT"
+            android:onClick="OnePOINT2"
             android:text="FREE THROW" />
     </LinearLayout>
 </LinearLayout>
