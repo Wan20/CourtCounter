@@ -23,11 +23,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Displays the given score for Team A.
+     * Displays the given score for Team B.
      */
     public void displayForTeamB(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.team_b_score);
-        scoreView.setText(String.valueOf(score));
+        TextView scoreView2 = (TextView) findViewById(R.id.team_b_score);
+        scoreView2.setText(String.valueOf(score));
     }
 
     /**
@@ -58,14 +58,14 @@ public class MainActivity extends AppCompatActivity {
      */
     public void OnePOINT2(View v) {
         scoreTeamB = scoreTeamB + 1;
-        displayForTeamA(scoreTeamB);
+        displayForTeamB(scoreTeamB);
     }
     /**
      * Increment the given score 2 for Team B.
      */
     public void TwoPOINT2(View v) {
         scoreTeamB = scoreTeamB + 2;
-        displayForTeamA(scoreTeamB);
+        displayForTeamB(scoreTeamB);
     }
 
     /**
@@ -73,6 +73,6 @@ public class MainActivity extends AppCompatActivity {
      */
     public void ThreePOINT2(View v) {
         scoreTeamB = scoreTeamB + 3;
-        displayForTeamA(scoreTeamB);
+        displayForTeamB(scoreTeamB);
     }
 }
